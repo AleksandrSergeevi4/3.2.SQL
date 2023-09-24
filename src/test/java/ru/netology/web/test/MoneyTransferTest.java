@@ -60,7 +60,7 @@ public class MoneyTransferTest {
     }
 
     @Test
-    void shouldInvalidTransfer1cardTo2card() {
+    void shouldInvalidTransfer2cardTo1card() {
         var firstCard = getFirstCardNumber();
         var secondCard = getSecondCardNumber();
         var firstCardBalance = dashboardPage.getCardBalance(firstCard);
